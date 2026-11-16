@@ -34,6 +34,11 @@ Choose an AI solution approach, compare provider and cloud-platform ecosystems, 
 - [AI Solution Adoption & LLM Engineering Guide — English](ai-engineering/AI_Solution_Adoption_and_LLM_Engineering_Guide.md)
 - [AI 솔루션 도입 및 LLM 엔지니어링 가이드 — 한국어](ai-engineering/AI_Solution_Adoption_and_LLM_Engineering_Guide.ko.md)
 
+Explore a Cleaning with Dee-specific AI adoption and CRM architecture, including its admin dashboard, bounded agents, and human-reviewed outreach:
+
+- [Cleaning with Dee: AI Adoption & CRM Architecture — English](ai-engineering/CleaningWithDee_AI_Adoption_Guide.md)
+- [Cleaning with Dee AI 도입 및 CRM 아키텍처 — 한국어](ai-engineering/CleaningWithDee_AI_Adoption_Guide.ko.md)
+
 ### Databricks MCP
 
 Set up Databricks Unity Gateway to connect Codex with the `system.ai.github` MCP server on Windows PowerShell:
