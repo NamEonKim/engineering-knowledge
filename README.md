@@ -27,6 +27,13 @@ Learn about planning and collaborating with multiple AI agents:
 - [Multi-Agent Development Guide — English](Multi_Agent_Development_Guide.md)
 - [Multi-Agent Development Guide — 한국어](Multi_Agent_Development_Guide.ko.md)
 
+### AI Engineering & Solution Adoption
+
+Choose an AI solution approach, compare provider and cloud-platform ecosystems, and plan a responsible path from pilot to production:
+
+- [AI Solution Adoption & LLM Engineering Guide — English](ai-engineering/AI_Solution_Adoption_and_LLM_Engineering_Guide.md)
+- [AI 솔루션 도입 및 LLM 엔지니어링 가이드 — 한국어](ai-engineering/AI_Solution_Adoption_and_LLM_Engineering_Guide.ko.md)
+
 ### Databricks MCP
 
 Set up Databricks Unity Gateway to connect Codex with the `system.ai.github` MCP server on Windows PowerShell:
