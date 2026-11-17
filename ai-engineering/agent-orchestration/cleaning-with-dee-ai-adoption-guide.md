@@ -2,7 +2,7 @@
 
 This guide outlines a practical path to grow Cleaning with Dee from a cleaning-service website into an AI-assisted customer and partnership management platform (CRM + AI agents). It centers on an administrative dashboard and human-controlled customer and stakeholder communication without treating AI output as an autonomous business decision.
 
-> **Scope and assumptions:** This is a proposed architecture, not a description of a deployed system or legal advice. The Firestore collections and fields below are illustrative starting points; adapt them to the organization's actual processes, permissions, and retention needs. For general AI adoption, model selection, RAG, prompting, and evaluation concepts, see the [AI Solution Adoption & LLM Engineering Guide](AI_Solution_Adoption_and_LLM_Engineering_Guide.md).
+> **Scope and assumptions:** This is a proposed architecture, not a description of a deployed system or legal advice. The Firestore collections and fields below are illustrative starting points; adapt them to the organization's actual processes, permissions, and retention needs. For general AI adoption, model selection, RAG, prompting, and evaluation concepts, see the [AI Solution Adoption & LLM Engineering Guide](../llm/ai-solution-adoption-and-llm-engineering-guide.md).
 
 ## Contents
 

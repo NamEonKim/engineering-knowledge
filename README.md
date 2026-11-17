@@ -1,82 +1,46 @@
-# Personal Dev Wiki
+# Engineering Knowledge
 
-A personal developer wiki for practical notes on building, shipping, and operating software. The guides below cover development workflows, senior frontend and backend interview preparation, AI-assisted collaboration, and DevOps troubleshooting, with English and Korean editions where available.
+A practical knowledge base for building, shipping, and operating software. Browse by engineering discipline, or use the paired English and Korean editions where available.
 
-## Guides
+## Programming
 
-### Git & Development Workflow
+- [Go: Senior Backend Interview Guide](programming/go/senior-backend-interview-guide.md)
+- [Java: Senior Backend Interview Guide](programming/java/senior-backend-interview-guide.md)
 
-[Git Branch Workflow Guide](Git_Branch_Guide.md) — cloning, branch setup, commits, reviews, and safe refactoring.
+## Frontend
 
-### Frontend & App Senior Interviews
+- [Angular: Senior Frontend Interview Guide](frontend/angular/senior-frontend-interview-guide.md)
+- [Flutter: Senior App Engineer Interview Guide](frontend/flutter/senior-app-engineer-interview-guide.md)
+- [React: Senior Frontend Interview Guide](frontend/react/senior-frontend-interview-guide.md)
+- [Vue: Senior Frontend Interview Guide](frontend/vue/senior-frontend-interview-guide.md)
 
-- [Angular Senior Frontend Interview Guide](interview-guides/frontend/Angular_Senior_Frontend_Interview_Guide.md)
-- [Flutter Senior App Engineer Interview Guide](interview-guides/frontend/Flutter_Senior_App_Engineer_Interview_Guide.md)
-- [React Senior Frontend Interview Guide](interview-guides/frontend/React_Senior_Frontend_Interview_Guide.md)
-- [Vue Senior Frontend Interview Guide](interview-guides/frontend/Vue_Senior_Frontend_Interview_Guide.md)
+## Cloud & DevOps
 
-### Backend Senior Interviews
+- [Cloud Concepts Comparison Guide — English](cloud-devops/cloud-platforms/cloud-concepts-comparison-guide.md) · [한국어](cloud-devops/cloud-platforms/cloud-concepts-comparison-guide.ko.md)
+- [Enterprise Network Operations — English](cloud-devops/networking/enterprise-network-operations.md) · [한국어](cloud-devops/networking/enterprise-network-operations.ko.md)
 
-- [Go Backend Senior Interview Guide](interview-guides/backend/Go_Backend_Senior_Interview_Guide.md)
-- [Java Backend Senior Interview Guide](interview-guides/backend/Java_Backend_Senior_Interview_Guide.md)
+## AI Engineering
 
-### AI-Assisted Development
+- [AI Solution Adoption & LLM Engineering Guide — English](ai-engineering/llm/ai-solution-adoption-and-llm-engineering-guide.md) · [한국어](ai-engineering/llm/ai-solution-adoption-and-llm-engineering-guide.ko.md)
+- [Multi-Agent Development Guide — English](ai-engineering/agent-orchestration/multi-agent-development-guide.md) · [한국어](ai-engineering/agent-orchestration/multi-agent-development-guide.ko.md)
+- [Cleaning with Dee: AI Adoption & CRM Architecture — English](ai-engineering/agent-orchestration/cleaning-with-dee-ai-adoption-guide.md) · [한국어](ai-engineering/agent-orchestration/cleaning-with-dee-ai-adoption-guide.ko.md)
+- [Unity Gateway, Codex, and GitHub MCP Setup — English](ai-engineering/mcp/unity-gateway-codex-github-mcp-setup.md) · [한국어](ai-engineering/mcp/unity-gateway-codex-github-mcp-setup.ko.md)
 
-Learn about planning and collaborating with multiple AI agents:
+## Database
 
-- [Multi-Agent Development Guide — English](Multi_Agent_Development_Guide.md)
-- [Multi-Agent Development Guide — 한국어](Multi_Agent_Development_Guide.ko.md)
+- [Snowflake, GitHub, Codex, and GitHub Actions — English](database/snowflake/github-actions-integration-guide.md) · [한국어](database/snowflake/github-actions-integration-guide.ko.md)
 
-### AI Engineering & Solution Adoption
+## Tutorials
 
-Choose an AI solution approach, compare provider and cloud-platform ecosystems, and plan a responsible path from pilot to production:
+- [Git Branch Workflow Guide](tutorials/git-branch-workflow.md)
+- [Postman API Testing and OAuth Token Automation — English](tutorials/api-testing/postman-api-testing-oauth-token-guide.md) · [한국어](tutorials/api-testing/postman-api-testing-oauth-token-guide.ko.md)
 
-- [AI Solution Adoption & LLM Engineering Guide — English](ai-engineering/AI_Solution_Adoption_and_LLM_Engineering_Guide.md)
-- [AI 솔루션 도입 및 LLM 엔지니어링 가이드 — 한국어](ai-engineering/AI_Solution_Adoption_and_LLM_Engineering_Guide.ko.md)
+## Troubleshooting
 
-Explore a Cleaning with Dee-specific AI adoption and CRM architecture, including its admin dashboard, bounded agents, and human-reviewed outreach:
+- [DevOps Log Commands — English](troubleshooting/devops-log-commands.md) · [한국어](troubleshooting/devops-log-commands.ko.md)
 
-- [Cleaning with Dee: AI Adoption & CRM Architecture — English](ai-engineering/CleaningWithDee_AI_Adoption_Guide.md)
-- [Cleaning with Dee AI 도입 및 CRM 아키텍처 — 한국어](ai-engineering/CleaningWithDee_AI_Adoption_Guide.ko.md)
+## Conventions
 
-### Databricks MCP
-
-Set up Databricks Unity Gateway to connect Codex with the `system.ai.github` MCP server on Windows PowerShell:
-
-- [Unity Gateway, Codex, and GitHub MCP Setup — English](databricks-mcp/Unity_Gateway_Codex_GitHub_MCP_Setup.md)
-- [Unity Gateway, Codex, and GitHub MCP Setup — 한국어](databricks-mcp/Unity_Gateway_Codex_GitHub_MCP_Setup.ko.md)
-
-### Cloud Infrastructure
-
-Compare cloud computing concepts and on-premises environments, then see how Snowflake and Databricks relate to AWS, Google Cloud, Azure, and OCI:
-
-- [Cloud Concepts Comparison Guide — English](Cloud_Concepts_Comparison_Guide.md)
-- [Cloud Concepts Comparison Guide — 한국어](Cloud_Concepts_Comparison_Guide.ko.md)
-
-### Snowflake, GitHub & Codex
-
-Connect Snowflake Git, Snowflake CLI, OpenAI Codex, and GitHub Actions using least-privilege access:
-
-- [Snowflake, GitHub, Codex & GitHub Actions — English](snowflake-mcp/Snowflake_GitHub_Codex_GitHub_Actions_Guide.md)
-- [Snowflake, GitHub, Codex 및 GitHub Actions — 한국어](snowflake-mcp/Snowflake_GitHub_Codex_GitHub_Actions_Guide.ko.md)
-
-### API Testing with Postman
-
-Organize REST API tests, environments, authentication, and API-specific OAuth token workflows:
-
-- [Postman API Testing and OAuth Token Automation](postman/Postman_API_Testing_and_OAuth_Token_Automation.md)
-- [Postman API 테스트 및 OAuth 토큰 자동화 — 한국어](postman/Postman_API_Testing_and_OAuth_Token_Automation.ko.md)
-
-### Enterprise Network Operations
-
-Manage FQDN configuration, credential rotation, and least-privilege firewall requests:
-
-- [Enterprise Network Operations: FQDN Governance, Credential Rotation, and Firewall Readiness](networking/Enterprise_Network_Operations_FQDN_Credentials_Firewall.md)
-- [엔터프라이즈 네트워크 운영: FQDN 관리, 인증정보 교체 및 방화벽 준비 — 한국어](networking/Enterprise_Network_Operations_FQDN_Credentials_Firewall.ko.md)
-
-### DevOps & Troubleshooting
-
-Find platform-specific log locations and read-only inspection commands for Linux, Unix, Windows, SSH, Docker, and Kubernetes:
-
-- [DevOps Log Commands — English](DevOps_Log_Commands.md)
-- [DevOps Log Commands — 한국어](DevOps_Log_Commands.ko.md)
+- Topic folders group related material; filenames use lowercase kebab-case.
+- English documents use `.md`; Korean editions use `.ko.md`.
+- Keep this index in sync when adding, moving, or renaming guides.
